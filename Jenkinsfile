@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "portal-cultura"
+    DEPLOY_NAMESPACE = "portal"
   }
   stages {
     stage('Validate Environment') {
